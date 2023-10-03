@@ -92,7 +92,6 @@ li.text-decoration a:hover {
   justify-content: center;
   align-items: center;
   color: #212529;
-  margin-top: -30px;
 }
 .style h5 {
   color: #32236f;
@@ -167,4 +166,51 @@ ul .social {
 }
 .footer-heading-color p a:hover {
   color: rgb(19, 19, 122) !important;
+}
+
+body .hsr-contact-right {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .hsr-contact-right h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+body .btn {
+  background-color: yellow;
+  color: white;
+}
+body .btn:hover {
+  background-color: #3e3f66 !important;
+  color: white !important;
+}
+body .hsr-contact-left {
+  background-color: #f7f7f7;
+}
+body .card {
+  background-color: #f7f7f7;
+}
+body .hsr-left-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .hsr-navs-heading {
+  background-color: #3e3f66;
+  background-color: #3e3f66;
+  height: 200px;
+  color: aliceblue;
+}
+body .hsr-navs-heading a {
+  color: yellow;
+  text-decoration: none;
+}
+body .hsr-left-hover a:hover {
+  color: red;
 }
